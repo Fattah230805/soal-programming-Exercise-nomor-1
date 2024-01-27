@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150vh;
+  background-color: #084548;
+  color :bisque
+}
+
+.converter-container {
+  background-color: #08555b;
+  padding: 80px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center; /* biar di tengah  */
+}
+h1 {
+  margin-bottom: 20px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap; 
+  margin-bottom: 15px;
+  background-color: #08555b;
+}
+
+.input-group {
+  margin: 10px;
+}
+
+
+
+label {
+  margin-right: 10px;
+}
+
+input,
+select {
+  padding: 8px;
+  margin-right: 0; 
+  background-color: #08555b;
+  color: bisque;
+}
+
+select {
+  margin-left: 0; 
+}
+
+input[disabled] {
+  background-color:#08555b;
+}
+
+button {
+  padding: 10px 100px; 
+  cursor: pointer;
+  background-color:#08555b;
+  color :bisque
+}
+
+
